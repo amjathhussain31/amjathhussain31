@@ -6,7 +6,7 @@
 
 ## About
 
-I'm a final-year B.Tech student in Artificial Intelligence and Data Science (Class of 2027), and I build LLM applications that go beyond a demo: retrieval that is evaluated, agents that are guarded, and pipelines that return structured, validated output.
+I'm a final-year B.Tech student in Artificial Intelligence and Data Science , and I build LLM applications that go beyond a demo: retrieval that is evaluated, agents that are guarded, and pipelines that return structured, validated output.
 
 My current focus is agentic AI and retrieval-augmented systems, especially natural-language interfaces to data: agents that plan, call tools, remember context, and ask for human approval before doing anything risky.
 
