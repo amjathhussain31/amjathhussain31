@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" role="presentation"><defs></defs><style>
+.sans{font-family:ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+@keyframes ring{to{stroke-dashoffset:-1000}}
+@keyframes inUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes bob{50%{transform:translateY(-2.5px)}}
+@keyframes glint{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(800px);opacity:0}}
+@keyframes pulse{50%{opacity:.45}}
+.ring{fill:none;stroke-width:2.2;stroke-dasharray:150 850;stroke-linecap:round;animation:ring 8s linear infinite}
+.in{animation:inUp .8s ease-out backwards}
+.bob{animation:bob 4.5s ease-in-out infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><g transform="translate(20 20)"><g fill="none" stroke="#22d3ee" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9 11 H9 A7 7 0 0 0 10 -3 A10 9 0 0 0 -8 -4 A7 7 0 0 0 -9 11 Z"/></g></g></svg>
